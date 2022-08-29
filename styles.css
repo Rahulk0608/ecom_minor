@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.top-container{
+    
+    font-family: sans-serif;
+    background-color:#f8f9fa;
+    height: 120px;
+    font-size: 12px;
+    font-weight: 400; 
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #343a40;
+}
+
+.search-box{
+    width: 350px;
+    height: 40px;       
+}
+
+.hov:hover{
+    opacity: 0.7;   
+}
+
+.hov1:hover{
+    opacity: 0.7;
+}
+
+.section-head {
+   
+    font-family: sans-serif;
+    color: #343a40;
+    margin-top: 60px;
+    margin-left: 40px; 
+            
+}
+
+#section-head{
+    margin-top: 60px;
+}
+
+
+.sidenav {
+   
+    font-family: sans-serif;
+    width: 300px;
+    background-color: #dee2e6;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    justify-content: space-around;
+    transition: 0.5s;
+    margin-left: -300px;
+    height: 100%;
+     
+   }
+
+   .list-ul{
+    list-style: none;
+   }
+
+   .list-li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 13px;
+   
+   }
+
+   .list-li:hover{
+    background-color: #fcc419;
+   }
+
+   .close-icon{
+    position: fixed;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 15px;
+    height: 30px;
+    opacity: 0;
+    
+   }
+
+   .side-head{
+    color:#343a40;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+   }
+ 
+  
+  .footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #343a40;
+
+        text-align: center;
+        padding: 150px;
+        color: white;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        font-size: 12px;
+  }
+
+  .main{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+p{
+    text-align: center;
+}
+
+input[type=text] {
+    
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: none;
+    font-size: 12px;
+    
+    padding: 15px 30px 10px 40px;
+    
+  }
+  
+  .btn{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -10px;
+    height: 22px;
+  }
+
+ .price{
+    text-decoration: none;
+    color: black;
+ }
+
+ .price:hover{
+    color: #40c057;
+ }
+
+.slide{
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 500px;
+    left: 210px;
+    top: 20px;
+}
+    
+  
+  
